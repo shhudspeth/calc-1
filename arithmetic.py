@@ -34,11 +34,7 @@ def cube(num1):
 def power(num1, num2):
     """Raise num1 to the power of num2 and return the value."""
     # cannot take powers of decimals or fractions!!
-    result = 1
-    for x in range(int(num2)):
-        result *= (num1)
-
-    return result
+    return num1**num2
 
 
 def mod(num1, num2):
